@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Joey's Homepage
+</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- 最新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script>
+$( "#class" ).click(function() {
+  window.location.href = 'classsniper.php';
+});
+$( "#dota" ).click(function() {
+  alert( "Handler for .click() called." );
+});
+</script>
+</head>
+<body>
+<div id="toolswrapper">
+<button id="dota" type="button" class="btn btn-lg btn-primary btn-block">DotA 2 Armory</button>
+
+<button id="class" type="button" class="btn btn-lg btn-primary btn-block">
+UIUC Class Sniper
+</button>
+</div>
+</body>
+</html>
