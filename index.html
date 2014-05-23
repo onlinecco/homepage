@@ -3,15 +3,16 @@
 <title>Joey's Homepage
 </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <!-- 最新 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
 <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
 <script>
 $( "#class" ).click(function() {
   window.location.href = 'classsniper.php';
@@ -22,10 +23,53 @@ $( "#dota" ).click(function() {
 </script>
 </head>
 <body>
-<div id="toolswrapper">
-<button id="dota" type="button" class="btn btn-lg btn-primary btn-block">DotA 2 Armory</button>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+	        <div class="item active">
+		            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+		              <div class="container">
+			              <div class="carousel-caption">
+				              <h1>Personal Blog</h1>
+				              <p>My personal blog where I will continuously update blogs.</p>
+				              <p><a class="btn btn-lg btn-primary" href="#" role="button">Check out</a></p>
+				            </div>
+			                </div>
+		            </div>
+            <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+	            <div class="carousel-caption">
+		                <h1>Dota 2 Armory</h1>
+		                  <p>An enviroment for DotA 2 Players to communicate and check out their status</p>
+		                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+	                  </div>
+            </div>
+        </div>
+        <div class="item">
+	          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+	            <div class="container">
+		              <div class="carousel-caption">
+			                <h1>UIUC Class Sniper</h1>
+			                <p>A tool helps UIUC students to snipe courses they want to register for</p>
+			              <p><a class="btn btn-lg btn-primary" href="#" role="button">Check out</a></p>
+		                  </div>
+	              </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
-<button id="class" type="button" class="btn btn-lg btn-primary btn-block">
+<div id="toolswrapper">
+<button href="dota/index.php" id="dota" type="button" class="btn btn-lg btn-primary btn-block">DotA 2 Armory</button>
+
+<button href="classsniper.php" id="class" type="button" class="btn btn-lg btn-primary btn-block">
 UIUC Class Sniper
 </button>
 </div>
