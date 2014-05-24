@@ -44,12 +44,16 @@ curl_close($ch);
 
 file_put_contents("output.txt",$arr2);
 if (strpos($arr2,'WELCOME') !== false) {
-    echo 'true';
+    $result = array();
+    $result[0] = 1;
+    echo json_encode($result);
 }
 elseif(strpos($arr2,'The Enterprise ID or Password that you provided was incorrect. Please note: Enterprise ID is case sensitive.') !== false)
 {
-	echo 'Incorrect Password.';
+	$result = array();
+    $result[0] = 0;
+    echo json_encode($result);
 
 }
-else echo 'Login Failed. Please contact the administrator.';
+else echo 0;
 ?>

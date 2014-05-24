@@ -24,15 +24,22 @@ $(document).ready(function(){
 		   type: "POST",
 		   url: "login.php",
 			data: "name="+username+"&pwd="+password,
+			dataType: 'json',
 		   success: function(html){    
 			if(html=='true')    {
 			 //$("#add_err").html("right username or password");
 			 //window.location="dashboard.php";
-				$("#loginform-in").val(html);
+				if(html[0])
+					alert("Login success.");
+				else{
+					$("#add_err").css('display', 'inline', 'important');
+			 		$("#add_err").html("<img src='images/alert.png' />Wrong username or password.");
+				}
+				
 			}
 			else    {
-			$("#add_err").css('display', 'inline', 'important');
-			 $("#add_err").html("<img src='images/alert.png' />Wrong username or password");
+				$("#add_err").css('display', 'inline', 'important');
+			 	$("#add_err").html("<img src='images/alert.png' />Login failed. Please contact the administrator.");
 			}
 		   },
 		   beforeSend:function()
