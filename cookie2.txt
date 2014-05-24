@@ -10,4 +10,4 @@ webprod.admin.uillinois.edu	FALSE	/ssa/servlet/	FALSE	10	RedirectString	https%3A
 webprod.admin.uillinois.edu	FALSE	/ssa	TRUE	0	JSESSIONID	43532E65A799DEE6EEDFAF5CAE2228F7
 webprod.admin.uillinois.edu	FALSE	/	FALSE	0	ApplicationSessionId	8214f89f-f1e4-4688-8d65-fab49e622820-130.126.112.114
 .uillinois.edu	TRUE	/	FALSE	0	TESTID	test
-ui2web1.apps.uillinois.edu	FALSE	/BANPROD1/	FALSE	0	SESSID	OEdBMEpDMjc0MTc1OQ==
+ui2web1.apps.uillinois.edu	FALSE	/BANPROD1/	FALSE	0	SESSID	QjdONlJXMjc0MTc1OQ==

@@ -1,0 +1,15 @@
+[24-May-2014 02:13:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'MEIxueYUAN0915' (T_STRING) in /home/jcao7/public_html/sniper/login.php on line 5
+[24-May-2014 02:14:16 America/Chicago] PHP Warning:  file_put_contents(
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=/BANPROD1/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&amp;amp;msg=WELCOME+&lt;b&gt;Welcome,+Jiayi+Cao,+to+UI-Integrate+Self-Service!&lt;%2Fb&gt;May+23,+201411%3A14+pm&quot;&gt;
+&lt;/HEAD&gt;
+&lt;/HTML&gt;
+): failed to open stream: No such file or directory in /home/jcao7/public_html/sniper/login.php on line 47
+[24-May-2014 02:18:51 America/Chicago] PHP Warning:  file_put_contents(
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=/BANPROD1/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu&amp;amp;msg=WELCOME+&lt;b&gt;Welcome,+Jiayi+Cao,+to+UI-Integrate+Self-Service!&lt;%2Fb&gt;May+24,+201402%3A14+am&quot;&gt;
+&lt;/HEAD&gt;
+&lt;/HTML&gt;
+): failed to open stream: No such file or directory in /home/jcao7/public_html/sniper/login.php on line 47

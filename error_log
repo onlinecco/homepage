@@ -1,2 +1,4 @@
 [29-Apr-2014 17:21:46 America/Chicago] PHP Warning:  curl_setopt() expects exactly 3 parameters, 2 given in /home/jcao7/public_html/login.php on line 21
 [11-May-2014 19:45:28 America/Chicago] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/jcao7/public_html/login.php on line 37
+[23-May-2014 06:46:39 America/Chicago] PHP Parse error:  syntax error, unexpected '*' in /home/jcao7/public_html/login.php on line 96
+[23-May-2014 09:58:24 America/Chicago] PHP Fatal error:  Call to undefined function file_get_html() in /home/jcao7/public_html/webparsert.php on line 2
